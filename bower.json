@@ -1,7 +1,7 @@
 {
-  "name": "lemonjs",
+  "name": "peachjs",
   "description": "Use javascript variables directly in your HTML.",
-  "main": "dist/lemon.js",
+  "main": "dist/peach.js",
   "keywords": [
     "JavaScript",
     "HTML",

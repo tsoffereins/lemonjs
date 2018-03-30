@@ -1,28 +1,28 @@
-var Lemon = (function()
+var Peach = (function()
 {
 	/*
 	|--------------------------------------------------------------------------
-	| Lemon
+	| Peach
 	|--------------------------------------------------------------------------
 	|
-	| A Lemon searches for the variables in a host element and binds a scope to it.
+	| A Peach searches for the variables in a host element and binds a scope to it.
 	|
 	*/
 
 	/**
-	 * Create a new lemon.
+	 * Create a new peach.
 	 * 
 	 * @param  {string}  baseKey
 	 * @param  {HTMLElement}  host
 	 * @param  {object}  scope
 	 * @return {void}
 	 */
-	function Lemon(baseKey, host, scope) 
+	function Peach(baseKey, host, scope) 
 	{
 		if (isObject(baseKey)) {
 			scope = host;
 			host = baseKey;
-			baseKey = '$lemon';
+			baseKey = '$peach';
 		}
 
 		parseHost(host, baseKey);
@@ -404,5 +404,5 @@ var Lemon = (function()
 		return key;
 	}
 
-	return Lemon;
+	return Peach;
 })();

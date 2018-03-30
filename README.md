@@ -1,13 +1,13 @@
-# lemonjs
+# peachjs
 Use javascript variables directly in your HTML.
 
 ## Installation
 
 ### Bower
-`bower install lemonjs`
+`bower install peachjs`
 
 ### NPM
-`npm install lemonjs`
+`npm install peachjs`
 
 ## Usage
 
@@ -15,24 +15,22 @@ Use javascript variables directly in your HTML.
 ```html
 <html>
 <head>
-	<title>Hello $lemon.space</title>
+	<title>Hello $peach.space</title>
 </head>
 <body>
-	<h1>Hello $lemon.space</h1>
-	<input type="text" value="$lemon.space" />
+	<h1>Hello $peach.space</h1>
+	<input type="text" value="$peach.space" />
 
-	<script src="/lemonjs/dist/lemon.min.js"></script>
+	<script src="/peachjs/dist/peach.min.js"></script>
 </body>
 </html>
 ```
 
 ### JavaScript
-From a DateRange you can get all kinds of interesting information about the timespan.
-
 ```javascript
 var scope = { space: "world" };
 
-Lemon(document.documentElement, scope);
+Peach(document.documentElement, scope);
 ```
 
 ## Support

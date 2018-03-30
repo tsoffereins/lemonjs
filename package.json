@@ -1,8 +1,8 @@
 {
-  "name": "lemonjs",
+  "name": "peachjs",
   "version": "1.0.0",
   "description": "Use javascript variables directly in your HTML.",
-  "main": "dist/lemon.js",
+  "main": "dist/peach.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/tsoffereins/date-range.git"
@@ -16,9 +16,9 @@
   "author": "Thomas Offereins",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tsoffereins/lemonjs/issues"
+    "url": "https://github.com/tsoffereins/peachjs/issues"
   },
-  "homepage": "https://github.com/tsoffereins/lemonjs#readme",
+  "homepage": "https://github.com/tsoffereins/peachjs#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",

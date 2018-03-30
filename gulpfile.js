@@ -26,7 +26,7 @@ gulp.task('clean-dist', cleanDist);
  */
 function deploy()
 {
-	gulp.src('./src/lemon.js')
+	gulp.src('./src/peach.js')
 		.pipe(gulp.dest('./dist/'))
 		.pipe(jshint())
 		.pipe(jshint.reporter('default'))
