@@ -1,6 +1,6 @@
 {
   "name": "staplerjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use javascript variables directly in your HTML.",
   "main": "dist/stapler.js",
   "repository": {
