@@ -17,13 +17,13 @@ StaplerJS is NOT a templating engine that allows you to reuse HTML snippets and 
 ```html
 <html>
 <head>
-	<title>Hello $stapler.space</title>
+  <title>Hello $stapler.space</title>
 </head>
 <body>
-	<h1>Hello $stapler.space</h1>
-	<input type="text" value="$stapler.space" />
+  <h1>Hello $stapler.space</h1>
+  <input type="text" value="$stapler.space" />
 
-	<script src="/staplerjs/dist/stapler.min.js"></script>
+  <script src="/staplerjs/dist/stapler.min.js"></script>
 </body>
 </html>
 ```
@@ -64,21 +64,21 @@ This will print the value of `foo` in the input field, but will also update `foo
 A scope is the base object you use to feed your HTML. This object can have nested objects and keys with any value except for array.
 ```javascript
 var scope = { 
-	title: "StaplerJS",
-	blog: {
-		content: "lorem ipsum dolor sit amet"
-	},
-	year: 2018,
-	link: "dev.tsoffereins.com"
+  title: "StaplerJS",
+  blog: {
+    content: "lorem ipsum dolor sit amet"
+  },
+  year: 2018,
+  link: "dev.tsoffereins.com"
 };
 ```
 
 When a variable points to a function in the scope, this function is executed and the return value used in the view.
 ```javascript
 var scope = { 
-	title: function() {
-		return "Stapler" + "JS";
-	}
+  title: function() {
+    return "Stapler" + "JS";
+  }
 };
 ```
 
