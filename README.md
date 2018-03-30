@@ -1,5 +1,5 @@
 # lemonjs
-A JavaScript value object for a date range.
+Use javascript variables directly in your HTML.
 
 ## Installation
 
@@ -20,6 +20,8 @@ A JavaScript value object for a date range.
 <body>
 	<h1>Hello $lemon.space</h1>
 	<input type="text" input="$lemon.space" />
+
+	<script src="/lemonjs/dist/lemon.min.js"></script>
 </body>
 </html>
 ```
