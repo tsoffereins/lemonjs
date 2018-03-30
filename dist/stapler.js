@@ -228,7 +228,7 @@ var Stapler = (function()
 
 					properties[watcher.name] = value;
 
-					watcher.change(value);
+					watcher.change(isFn(value) ? value() : value);
 				}
 			});
 
@@ -371,6 +371,17 @@ var Stapler = (function()
 	function isObject(value) 
 	{
 		return typeof value === 'object' && value !== null;
+	}
+
+	/**
+	 * Determine if a value is a function.
+	 * 
+	 * @param  {mixed}  value
+	 * @return {boolean}
+	 */
+	function isFn(value) 
+	{
+		return typeof value === 'function';
 	}
 
 	/**
