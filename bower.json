@@ -1,0 +1,21 @@
+{
+  "name": "lemonjs",
+  "description": "Use javascript variables directly in your HTML.",
+  "main": "dist/lemon.js",
+  "keywords": [
+    "JavaScript",
+    "HTML",
+    "variables",
+    "view-driven"
+  ],
+  "authors": [
+    "Thomas Offereins"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
