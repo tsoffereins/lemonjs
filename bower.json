@@ -1,7 +1,7 @@
 {
-  "name": "peachjs",
+  "name": "staplerjs",
   "description": "Use javascript variables directly in your HTML.",
-  "main": "dist/peach.js",
+  "main": "dist/stapler.js",
   "keywords": [
     "JavaScript",
     "HTML",

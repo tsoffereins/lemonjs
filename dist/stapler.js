@@ -1,28 +1,28 @@
-var Peach = (function()
+var Stapler = (function()
 {
 	/*
 	|--------------------------------------------------------------------------
-	| Peach
+	| Stapler
 	|--------------------------------------------------------------------------
 	|
-	| A Peach searches for the variables in a host element and binds a scope to it.
+	| A Stapler searches for the variables in a host element and binds a scope to it.
 	|
 	*/
 
 	/**
-	 * Create a new peach.
+	 * Create a new stapler.
 	 * 
 	 * @param  {string}  baseKey
 	 * @param  {HTMLElement}  host
 	 * @param  {object}  scope
 	 * @return {void}
 	 */
-	function Peach(baseKey, host, scope) 
+	function Stapler(baseKey, host, scope) 
 	{
 		if (isObject(baseKey)) {
 			scope = host;
 			host = baseKey;
-			baseKey = '$peach';
+			baseKey = '$stapler';
 		}
 
 		parseHost(host, baseKey);
@@ -404,5 +404,5 @@ var Peach = (function()
 		return key;
 	}
 
-	return Peach;
+	return Stapler;
 })();

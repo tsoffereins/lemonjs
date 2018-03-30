@@ -1,13 +1,13 @@
-# peachjs
+# staplerjs
 Use javascript variables directly in your HTML.
 
 ## Installation
 
 ### Bower
-`bower install peachjs`
+`bower install staplerjs`
 
 ### NPM
-`npm install peachjs`
+`npm install staplerjs`
 
 ## Usage
 
@@ -15,13 +15,13 @@ Use javascript variables directly in your HTML.
 ```html
 <html>
 <head>
-	<title>Hello $peach.space</title>
+	<title>Hello $stapler.space</title>
 </head>
 <body>
-	<h1>Hello $peach.space</h1>
-	<input type="text" value="$peach.space" />
+	<h1>Hello $stapler.space</h1>
+	<input type="text" value="$stapler.space" />
 
-	<script src="/peachjs/dist/peach.min.js"></script>
+	<script src="/staplerjs/dist/stapler.min.js"></script>
 </body>
 </html>
 ```
@@ -30,7 +30,7 @@ Use javascript variables directly in your HTML.
 ```javascript
 var scope = { space: "world" };
 
-Peach(document.documentElement, scope);
+Stapler(document.documentElement, scope);
 ```
 
 ## Support
